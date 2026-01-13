@@ -2,38 +2,19 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - MOUTAHAMIL KHADIJA</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
     <style>
-        :root {
-            --text-color: #333;
-            --light-text: #666;
-            --accent-color: #000;
-            --border-color: #ddd;
-            --spacing: 25px;
-        }
-
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            color: var(--text-color);
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 850px;
+            color: #1a1a1a;
+            max-width: 800px;
             margin: 0 auto;
-            background: #fff;
-            padding: 50px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            padding: 40px 20px;
+            background-color: #ffffff;
         }
 
-        /* HEADER */
+        /* En-tête */
         header {
             text-align: center;
             margin-bottom: 30px;
@@ -41,120 +22,164 @@
 
         h1 {
             margin: 0;
-            font-size: 2.2rem;
-            letter-spacing: 2px;
+            font-size: 2.2em;
             text-transform: uppercase;
-            font-weight: 700;
+            letter-spacing: 2px;
+            font-weight: bold;
         }
 
-        .subtitle {
-            font-weight: 600;
+        .tagline {
+            font-weight: bold;
+            font-size: 1.1em;
             margin: 10px 0;
-            font-size: 1.1rem;
         }
 
         .contact-info {
-            font-size: 0.9rem;
-            color: var(--light-text);
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 15px;
+            font-size: 0.9em;
+            color: #444;
         }
 
-        .contact-info a {
-            color: var(--light-text);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .contact-info a:hover {
-            color: var(--accent-color);
-        }
-
-        /* SECTIONS */
+        /* Sections */
         section {
-            margin-top: var(--spacing);
+            margin-top: 25px;
         }
 
         h2 {
-            font-size: 1.2rem;
+            font-size: 1.1em;
             text-transform: uppercase;
-            letter-spacing: 1px;
-            border-bottom: 1.5px solid var(--accent-color);
-            padding-bottom: 5px;
+            border-bottom: 1.5px solid #000;
+            padding-bottom: 3px;
             margin-bottom: 15px;
-            font-weight: 700;
+            letter-spacing: 1px;
         }
 
-        p, ul {
-            font-size: 0.95rem;
-            margin-bottom: 10px;
-        }
-
-        /* LISTS */
-        .experience-item, .education-item {
-            margin-bottom: 20px;
+        /* Mise en page des éléments (Formation & Expérience) */
+        .item {
+            margin-bottom: 15px;
         }
 
         .item-header {
             display: flex;
             justify-content: space-between;
-            font-weight: 600;
+            font-weight: bold;
         }
 
-        .item-subheader {
+        .item-sub {
             display: flex;
             justify-content: space-between;
             font-style: italic;
-            font-size: 0.9rem;
-            margin-bottom: 8px;
-            color: var(--light-text);
-        }
-
-        ul {
-            list-style-type: none;
-            padding-left: 10px;
-        }
-
-        ul li {
-            position: relative;
-            padding-left: 20px;
+            font-size: 0.95em;
             margin-bottom: 5px;
         }
 
-        ul li::before {
-            content: "—";
-            position: absolute;
-            left: 0;
-            color: var(--accent-color);
+        /* Listes */
+        ul {
+            padding-left: 20px;
+            margin: 5px 0;
+            list-style-type: square;
         }
 
-        .clean-list li::before {
-            content: "•";
+        li {
+            margin-bottom: 4px;
+            font-size: 0.95em;
         }
 
-        @media (max-width: 600px) {
-            .container { padding: 20px; }
-            .item-header, .item-subheader { flex-direction: column; }
-            h1 { font-size: 1.6rem; }
+        p {
+            font-size: 0.95em;
+            text-align: justify;
         }
 
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        /* Pour l'impression */
         @media print {
-            body { background: none; padding: 0; }
-            .container { box-shadow: none; width: 100%; max-width: 100%; }
+            body { padding: 0; margin: 1cm; }
         }
     </style>
 </head>
 <body>
 
-<div class="container">
     <header>
         <h1>Moutahamil Khadija</h1>
-        <div class="subtitle">Marketing Digital | Stratégie Commerciale | Création de Contenu</div>
+        <div class="tagline">Marketing Digital | Stratégie Commerciale | Création de Contenu</div>
         <div class="contact-info">
-            <span><i class="fas fa-map-marker-alt"></i> Salé, Maroc</span>
-            <span><i class="fas fa-phone"></i> +212 720 909 638</span>
-            <a href="mailto:mmoutahmilkhadija@gmail.com"><i class="fas fa-envelope"></i> mmoutahmilkhadija@gmail.com</a>
-            <a href="https://www.linkedin.com/in/moutahmil-khadija-90b1223a3/"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            <a href="
+            Salé, Maroc | +212 720 909 638<br>
+            <a href="mailto:mmoutahmilkhadija@gmail.com">mmoutahmilkhadija@gmail.com</a> | 
+            <a href="https://www.linkedin.com/in/moutahmil-khadija-90b1223a3/">LinkedIn</a> | 
+            <a href="https://github.com/khadijatiti-oss">GitHub</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Profil</h2>
+        <p>
+            Future diplômée en Marketing Digital, je combine une approche analytique rigoureuse avec une sensibilité artistique affirmée. Maîtrisant les fondamentaux de la relation client et de la data, j'aspire à concevoir des expériences de marque qui font sens. Curieuse de nature et animée par le goût du défi, je m'investis pleinement dans des projets où la créativité visuelle rencontre l'efficacité commerciale.
+        </p>
+    </section>
+
+    <section>
+        <h2>Parcours Académique</h2>
+        <div class="item">
+            <div class="item-header">
+                <span>École Supérieure de Technologie (EST)</span>
+                <span>Salé, Maroc</span>
+            </div>
+            <div class="item-sub">
+                <span>DUT en Marketing Digital et Commercial</span>
+                <span>2024 — Présent</span>
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-header">
+                <span>Lycée Abass Miftah</span>
+                <span>Salé, Maroc</span>
+            </div>
+            <div class="item-sub">
+                <span>Baccalauréat Scientifique</span>
+                <span>2024</span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Expériences Professionnelles</h2>
+        <div class="item">
+            <div class="item-header">
+                <span>ORLIVRAISON</span>
+                <span>Salé, Maroc</span>
+            </div>
+            <div class="item-sub">
+                <span>Immersion en Marketing Digital</span>
+                <span>Juin 2025 — Juillet 2025</span>
+            </div>
+            <ul>
+                <li><strong>Prospection :</strong> Identification de nouveaux leviers de croissance et soutien au développement commercial.</li>
+                <li><strong>Visuel :</strong> Conception de supports marketing orientés vers la conversion et l'engagement client.</li>
+                <li><strong>Analyse :</strong> Audit de la satisfaction client et proposition de solutions pour fluidifier le parcours utilisateur.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Compétences Linguistiques</h2>
+        <ul>
+            <li><strong>Arabe :</strong> Langue maternelle (Excellente maîtrise rédactionnelle).</li>
+            <li><strong>Anglais :</strong> Niveau Avancé (Capacité à évoluer dans un environnement international).</li>
+            <li><strong>Français :</strong> Niveau Intermédiaire (Usage professionnel et courant).</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Univers Créatif & Intérêts</h2>
+        <ul>
+            <li><strong>Photographie :</strong> Exploration de l'esthétique visuelle et narration par l'image.</li>
+            <li><strong>Journaling & Design :</strong> Organisation créative et pratique régulière du dessin pour stimuler l'idéation.</li>
+            <li><strong>Veille Marketing :</strong> Intérêt marqué pour la psychologie du consommateur et les nouvelles tendances digitales.</li>
+        </ul>
+    </section>
+
+</body>
+</html>
