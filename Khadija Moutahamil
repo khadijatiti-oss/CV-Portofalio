@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - MOUTAHAMIL KHADIJA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --text-color: #333;
+            --light-text: #666;
+            --accent-color: #000;
+            --border-color: #ddd;
+            --spacing: 25px;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 50px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        /* HEADER */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-weight: 600;
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        .contact-info {
+            font-size: 0.9rem;
+            color: var(--light-text);
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .contact-info a {
+            color: var(--light-text);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact-info a:hover {
+            color: var(--accent-color);
+        }
+
+        /* SECTIONS */
+        section {
+            margin-top: var(--spacing);
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1.5px solid var(--accent-color);
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        p, ul {
+            font-size: 0.95rem;
+            margin-bottom: 10px;
+        }
+
+        /* LISTS */
+        .experience-item, .education-item {
+            margin-bottom: 20px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 600;
+        }
+
+        .item-subheader {
+            display: flex;
+            justify-content: space-between;
+            font-style: italic;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+            color: var(--light-text);
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 10px;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 5px;
+        }
+
+        ul li::before {
+            content: "—";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+        }
+
+        .clean-list li::before {
+            content: "•";
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 20px; }
+            .item-header, .item-subheader { flex-direction: column; }
+            h1 { font-size: 1.6rem; }
+        }
+
+        @media print {
+            body { background: none; padding: 0; }
+            .container { box-shadow: none; width: 100%; max-width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Moutahamil Khadija</h1>
+        <div class="subtitle">Marketing Digital | Stratégie Commerciale | Création de Contenu</div>
+        <div class="contact-info">
+            <span><i class="fas fa-map-marker-alt"></i> Salé, Maroc</span>
+            <span><i class="fas fa-phone"></i> +212 720 909 638</span>
+            <a href="mailto:mmoutahmilkhadija@gmail.com"><i class="fas fa-envelope"></i> mmoutahmilkhadija@gmail.com</a>
+            <a href="https://www.linkedin.com/in/moutahmil-khadija-90b1223a3/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="
